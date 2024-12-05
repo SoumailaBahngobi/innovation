@@ -1,11 +1,15 @@
 import Footer from './Footer/Footer';
 import './App.css';
 import './index.css';
+import { Link } from 'react-router-dom';
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import accueil from './accueil.jpg'
 import { AboutUs } from './Component/AboutUs/AboutUs';
 import { Kitchen } from './Component/Kitchen/Kitchen';
 import { OutDoors } from './Component/OutDoors/OutDoors';
 import { Contact } from './Component/Contact/Contact';
+import { LivingRoom } from './Component/LivingRoom/LivingRoom';
 // import { OutDoors } from './Component/OutDoors/OutDoors';
 
 
@@ -28,6 +32,14 @@ function App() {
               <a href="#Kitchen" className="text-white text-lg md:text-xl">Kitchen</a>
               <a href="#Outdoors" className="text-white text-lg md:text-xl">Outdoors</a>
               <a href="#Contact" className="text-white text-lg md:text-xl">Contact</a>
+
+              {/* <Link to="./Component/AboutUs/AboutUs" className="text-white text-lg md:text-xl">About Us</Link>
+              <Link to="./Component/Kitchen/Kitchen" className="text-white text-lg md:text-xl">Kitchen</Link>
+              <Link to="./Component/OutDoors/OutDoors" className="text-white text-lg md:text-xl">OutDoors</Link>
+              <Link to="./Component/Contact/Contact" className="text-white text-lg md:text-xl">Contact</Link> */}
+              {/* <Link to="./Component/AboutUs/AboutUs">About Us</Link> */}
+
+
             </div>
 
             { /* Hamburger menu (mobile) */}

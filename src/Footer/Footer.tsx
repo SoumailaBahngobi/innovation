@@ -1,5 +1,7 @@
 // Footer.js
 import React from "react";
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 // import logo from '../../asset/logo.png';
@@ -9,7 +11,7 @@ import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg
 const Footer = () => {
     return (
         <div className="mon_footer" >
-            <footer className="bg-blue-400 text-white py-6">
+            <footer className="gray-gray-400 text-white py-6">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                     <div className="container">
                         <div className="footer-container">
