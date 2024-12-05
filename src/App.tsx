@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <><nav className="container mx-auto flex justify-between items-center p-4">
+        <><nav className="bg-gray-600 text-white">
           {/* bg-gray-600 */}
           <div className="container mx-auto px-4 flex justify-between items-center py-4">
             {/* <div className="container mx-auto px-4 flex justify-between items-center py-4"> */}
