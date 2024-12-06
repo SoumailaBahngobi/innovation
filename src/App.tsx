@@ -48,13 +48,12 @@ function App() {
                     </li>
                   </ul>
                 </nav>
-
                 <Routes>
-                  <Route path="./Component/AboutUs" element={<AboutUs />} />
-                  <Route path="./Component/LivingRoom" element={<LivingRoom />} />
-                  <Route path="./Component/Kitchen" element={<Kitchen />} />
-                  <Route path="./Component/OutDoors" element={<OutDoors />} />
-                  <Route path="./Component/Contact" element={<Contact />} />
+                  <Route path="../Component/AboutUs" element={<AboutUs />} />
+                  <Route path="../Component/LivingRoom" element={<LivingRoom />} />
+                  <Route path="../Component/Kitchen" element={<Kitchen />} />
+                  <Route path="../Component/OutDoors" element={<OutDoors />} />
+                  <Route path="../Component/Contact" element={<Contact />} />
                 </Routes>
               </div>
             </Router>
@@ -237,28 +236,28 @@ function App() {
                   <nav>
                     <ul className=" flex space-x-16 relative flex h-16 items-center justify-between">
                       <li>
-                        <Link to="./Component/AboutUs">About Us</Link>
+                        <Link to="../Component/AboutUs">About Us</Link>
                       </li>
                       <li>
-                        <Link to="./Component/livingroom">Living Room</Link>
+                        <Link to="../Component/livingroom">Living Room</Link>
                       </li>
                       <li>
-                        <Link to="./Component/OutDoors">Kitchen</Link>
+                        <Link to="../Component/OutDoors">Kitchen</Link>
                       </li>
                       <li>
-                        <Link to="./Component/OutDoors">Outdoors</Link>
+                        <Link to="../Component/OutDoors">Outdoors</Link>
                       </li>
                       <li>
-                        <Link to="./Component/Contact">Contact</Link>
+                        <Link to="../Component/Contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
                   <Routes>
-                    <Route path="./Component/AboutUs" element={<AboutUs />} />
-                    <Route path="./Component/LivingRoom" element={<LivingRoom />} />
-                    <Route path="./Component/Kitchen" element={<Kitchen />} />
-                    <Route path="./Component/OutDoors" element={<OutDoors />} />
-                    <Route path="./Component/Contact" element={<Contact />} />
+                    <Route path="../Component/AboutUs" element={<AboutUs />} />
+                    <Route path="../Component/LivingRoom" element={<LivingRoom />} />
+                    <Route path="../Component/Kitchen" element={<Kitchen />} />
+                    <Route path="../Component/OutDoors" element={<OutDoors />} />
+                    <Route path="../Component/Contact" element={<Contact />} />
                   </Routes>
                 </div>
               </Router>

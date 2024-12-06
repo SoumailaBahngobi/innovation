@@ -2,6 +2,7 @@
 
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { NavLink, useNavigate } from "react-router-dom";
+import { Kitchen } from './Component/Kitchen/Kitchen';
 
 export default function Navigate() {
     const navigate = useNavigate();
@@ -24,7 +25,7 @@ export default function Navigate() {
                                         ? "nav-link active"
                                         : "nav-link"
                             }
-                            to="/homepage"
+                            to="../Component/AboutUs"
                         >
                             Homepage
                         </NavLink>
@@ -37,9 +38,9 @@ export default function Navigate() {
                                         ? "nav-link active"
                                         : "nav-link"
                             }
-                            to="/products"
+                            to="../Component/Kitchen"
                         >
-                            Products
+                            Kitchen
                         </NavLink>
                     </Nav>
                 </Navbar.Collapse>
@@ -47,3 +48,13 @@ export default function Navigate() {
         </Navbar>
     );
 }
+
+
+
+// <Routes>
+//   <Route path="/Component/AboutUs" element={<AboutUs />} />
+//   <Route path="/Component/LivingRoom" element={<LivingRoom />} />
+//   <Route path="/Component/Kitchen" element={<Kitchen />} />
+//   <Route path="/Component/Outdoors" element={<Outdoors />} />
+//   <Route path="/Component/Contact" element={<Contact />} />
+// </Routes>
