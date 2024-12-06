@@ -32,19 +32,19 @@ function App() {
                 <nav>
                   <ul className=" flex space-x-16 relative flex h-16 items-center justify-between">
                     <li>
-                      <Link to="./Component/AboutUs/AboutUs">About Us</Link>
+                      <Link to="./Component/AboutUs">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/livingroom">Living Room</Link>
+                      <Link to="./Component/livingroom">Living Room</Link>
                     </li>
                     <li>
-                      <Link to="./Component/OutDoors/OutDoors">Kitchen</Link>
+                      <Link to="./Component/OutDoors">Kitchen</Link>
                     </li>
                     <li>
-                      <Link to="./Component/OutDoors/OutDoors">Outdoors</Link>
+                      <Link to="./Component/OutDoors">Outdoors</Link>
                     </li>
                     <li>
-                      <Link to="./Component/Contact/Contact">Contact</Link>
+                      <Link to="./Component/Contact">Contact</Link>
                     </li>
                   </ul>
                 </nav>
@@ -98,7 +98,8 @@ function App() {
               luctus? Egestas dignissimos. Voluptate consequuntur porta do beatae amet. Sed! Libero consequatur varius!
               Ullamcorper necessitatibus? Vehicula fugit dolorem perferendis orci voluptatum voluptate adipisci repudiandae quisque arcu placeat? Proident nibh, <br />
               vitae conubia ipsa per! Reiciendis penatibus possimus ea? Quas, etiam. Ornare consequat.</p>
-            <h5 className='text-red-500'>ReadMore</h5>
+            <button><h5 className='text-red-500'>ReadMore"</h5></button>
+            <hr />
           </div>
           { /* Section avec des images et du texte */}
           <div className="grid grid-cols-2 gap-4 p-4">
@@ -112,7 +113,8 @@ function App() {
               <img src="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img-1024x647.jpg" className="w-50 h-50 mb-4 " />
               <p className="text-gray-800 text-center">Cubilia adipisicing. Similique diamlorem, dapibus voluptatibus ullamco nam <br /> facilisi in inventore voluptatem iure, irure exercitationem, vel aliqua ante incidunt fuga asperiores aspernatur eligendi molestias! Ipsam habitasse? Dolorem maxime! Placerat phasellus nostrud tempore mollit, sem impedit ad, inceptos quo, maiores hac, purus repellendus nobis optio inventore elit natoque nesciunt. Molestiae vestibulum odit recusandae praesentium bibendum laudantium esse, aliquip quod porta. Veniam? Auctor sequi, integer integer ratione viverra <br />
                 nibh phasellus mollitia aliquip incidunt! Sapien duis nemo ridiculus natus urna itaque, mus voluptate.</p>
-              <h5 className='text-red-500'>ReadMore</h5>
+              <button><h5 className='text-red-500'>ReadMore</h5></button>
+              <hr />
             </div>
 
             { /* Élément 3 */}
@@ -122,7 +124,8 @@ function App() {
               <img src="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic20-free-img.jpg" className="w-50 h-50 mb-4 " />
               <p className="text-gray-800 text-center">Suscipit aut consequuntur assumenda nullam, pariatur officiis, consequatur <br /> irure semper condimentum, earum! Arcu, wisi litora ex, mollis aenean lacus praesent atque curabitur temporibus volutpat? Feugiat? Ex nisi accusantium? Ad fames expedita laboriosam? Duis! Consectetuer ratione, hendrerit, unde proident omnis debitis enim sapien vivamus voluptatem venenatis, sollicitudin! Reiciendis beatae, quo, lectus sunt ipsam optio vivamus, tellus ultricies, pharetra porro? Facilisi vulputate. Porro fugit adipiscing dolorem unde. <br />
                 Eius? Natoque posuere saepe, iaculis nemo possimus leo sapien perferendis voluptas qui leo curabitur voluptate.</p>
-              <h5 className='text-red-500'>ReadMore</h5>
+              <button><h5 className='text-red-500'>ReadMore</h5></button>
+              <hr />
             </div>
 
             <div className="text-gray-700 leading-relaxed mb-4">
@@ -132,7 +135,8 @@ function App() {
               <p className="text-gray-800 text-center">Delectus id incidunt? Enim iste eveniet, qui magni atque impedit, ligula quia, <br />
                 pharetra quam tenetur! Repellat ex interdum laboriosam magnam dolores culpa. Eum eu placeat, aliquid aliquid repellendus <br /> sem quam quod voluptatibus. Repellendus mollit. Aenean morbi, repellat conubia, facilisi nesciunt, vel, cubilia velit veniam corrupti sodales incidunt unde quasi, nostrum, totam vel. Dapibus mus? Vulputate, cras asperiores pariatur sociosqu, suscipit. Facilisi erat, <br />
                 in tenetur bibendum error quos risus quae assumenda, porro hendrerit at mi voluptatem et quae congue dis risus.</p>
-              <h5 className='text-red-500'>ReadMore</h5>
+              <button><h5 className='text-red-500'>ReadMore</h5></button>
+              <hr />
             </div>
 
             <div className="text-gray-700 leading-relaxed mb-4">
@@ -142,7 +146,8 @@ function App() {
               <p className="text-gray-800 text-center">Delectus id incidunt? Enim iste eveniet, qui magni atque impedit, ligula quia, <br />
                 pharetra quam tenetur! Repellat ex interdum laboriosam magnam dolores culpa. Eum eu placeat, aliquid aliquid repellendus <br /> sem quam quod voluptatibus. Repellendus mollit. Aenean morbi, repellat conubia, facilisi nesciunt, vel, cubilia velit veniam corrupti sodales incidunt unde quasi, nostrum, totam vel. Dapibus mus? Vulputate, cras asperiores pariatur sociosqu, suscipit. Facilisi erat, <br />
                 in tenetur bibendum error quos risus quae assumenda, porro hendrerit at mi voluptatem et quae congue dis risus.</p>
-              <h5 className='text-red-500'>ReadMore</h5>
+              <button><h5 className='text-red-500'>ReadMore</h5></button>
+              <hr />
             </div>
 
             { /* Ajoutez d'autres éléments ici */}
@@ -232,19 +237,19 @@ function App() {
                   <nav>
                     <ul className=" flex space-x-16 relative flex h-16 items-center justify-between">
                       <li>
-                        <Link to="./Component/AboutUs/AboutUs">About Us</Link>
+                        <Link to="./Component/AboutUs">About Us</Link>
                       </li>
                       <li>
-                        <Link to="/livingroom">Living Room</Link>
+                        <Link to="./Component/livingroom">Living Room</Link>
                       </li>
                       <li>
-                        <Link to="./Component/OutDoors/OutDoors">Kitchen</Link>
+                        <Link to="./Component/OutDoors">Kitchen</Link>
                       </li>
                       <li>
-                        <Link to="./Component/OutDoors/OutDoors">Outdoors</Link>
+                        <Link to="./Component/OutDoors">Outdoors</Link>
                       </li>
                       <li>
-                        <Link to="./Component/Contact/Contact">Contact</Link>
+                        <Link to="./Component/Contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
