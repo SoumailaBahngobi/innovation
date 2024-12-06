@@ -15,9 +15,6 @@ const Footer = () => {
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                     <div className="container">
                         <div className="footer-container">
-
-
-
                             <div className="footer-center">
                                 <h3 className="container mx-auto flex justify-between items-center p-4">About</h3>
                                 <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.  <br /> Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh.</p>
@@ -114,9 +111,6 @@ const Footer = () => {
                         <a href="#Outdoors" className="text-white text-lg md:text-xl">Outdoors</a>
                         <a href="#Contact" className="text-white text-lg md:text-xl">Contact</a>
                     </div>
-
-                    { /* Hamburger menu (mobile) */}
-
                 </div>
             </nav>
         </div>
