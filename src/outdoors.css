@@ -1,0 +1,235 @@
+.App-header {
+    position: relative;
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img-1024x647.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px;
+    background-color: #333;
+}
+
+
+.logo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+
+    .nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+}
+
+.header-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+
+.button {
+    padding: 10px 20px;
+}
+
+.button-group a {
+    color: red;
+    text-decoration: none;
+}
+
+.App {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.main-article {
+    flex: 4;
+    margin-right: 20px;
+}
+
+.article-content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-img {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic26-free-img-150x150.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-img1 {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img-150x150.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-img2 {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic20-free-img-150x150.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-img3 {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img-150x150.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-img4 {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/sofa-with-pot-150x150.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.sidebar {
+    flex: 1;
+    margin-right: 10px
+}
+
+.sidebar-item {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10PX rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-container {
+    display: flex;
+    background-color: rgb(248, 245, 245);
+    box-shadow: 0 0 10px rgba(243, 237, 237, 0.1);
+}
+
+
+.post-container::before {
+    content: '';
+    width: 130px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.container1::before {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic26-free-img-150x150.jpg');
+}
+
+.container2::before {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img-150x150.jpg');
+}
+
+.container3::before {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic20-free-img-150x150.jpg');
+}
+
+.container4::before {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img-150x150.jpg');
+}
+
+.container5::before {
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/sofa-with-pot-150x150.jpg');
+}
+
+.post-container p {
+    margin: 0;
+
+}
+
+
+/* gère le background du footer*/
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*permet de faire la ligne horizontal*/
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+/* distance des mots de la dernière ligne*/
+.footer-bottom nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/*changer la couleur des liens*/
+.footer-bottom nav a {
+    color: #fff;
+    text-decoration: none;
+}
