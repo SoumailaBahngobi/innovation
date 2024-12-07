@@ -19,6 +19,7 @@ import { LivingRoom } from './Component/LivingRoom/LivingRoom';
 
 
 function App() {
+  // const app = useApp();
   return (
     <div className="App">
       <header className="App-header">
@@ -31,21 +32,11 @@ function App() {
               <div>
                 <nav>
                   <ul className=" flex space-x-16 relative flex h-16 items-center justify-between">
-                    <li>
-                      <Link to="./Component/AboutUs">About Us</Link>
-                    </li>
-                    <li>
-                      <Link to="./Component/livingroom">Living Room</Link>
-                    </li>
-                    <li>
-                      <Link to="./Component/OutDoors">Kitchen</Link>
-                    </li>
-                    <li>
-                      <Link to="./Component/OutDoors">Outdoors</Link>
-                    </li>
-                    <li>
-                      <Link to="./Component/Contact">Contact</Link>
-                    </li>
+                    <li><Link to="../Component/AboutUs">About Us</Link></li>
+                    <li><Link to="../Component/LivingRoom">Living Room</Link></li>
+                    <li><Link to="../Component/OutDoors">Kitchen</Link></li>
+                    <li><Link to="../Component/OutDoors">Outdoors</Link></li>
+                    <li><Link to="../Component/Contact">Contact</Link> </li>
                   </ul>
                 </nav>
                 <Routes>
@@ -165,7 +156,6 @@ function App() {
                 </div>
                 <div className="footer-center">
                   <h3 className="container mx-auto flex justify-between items-center p-10">SOCIAL</h3>
-                  {/* Liens sociaux */}
                   <div className="flex space-x-10">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
                       <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -221,10 +211,6 @@ function App() {
             </div>
           </div>
         </footer>
-
-
-
-
         <hr />
         <nav className="container mx-auto flex justify-between items-center p-4">
           <div className="container mx-auto px-4 flex justify-between items-center py-4">
@@ -235,25 +221,15 @@ function App() {
                 <div>
                   <nav>
                     <ul className=" flex space-x-16 relative flex h-16 items-center justify-between">
-                      <li>
-                        <Link to="../Component/AboutUs">About Us</Link>
-                      </li>
-                      <li>
-                        <Link to="../Component/livingroom">Living Room</Link>
-                      </li>
-                      <li>
-                        <Link to="../Component/OutDoors">Kitchen</Link>
-                      </li>
-                      <li>
-                        <Link to="../Component/OutDoors">Outdoors</Link>
-                      </li>
-                      <li>
-                        <Link to="../Component/Contact">Contact</Link>
-                      </li>
+                      <li><Link to="../Component/AboutUs">About Us</Link></li>
+                      <li><Link to="../Component/LivingRoom">Living Room</Link></li>
+                      <li><Link to="../Component/OutDoors">Kitchen</Link></li>
+                      <li><Link to="../Component/OutDoors">Outdoors</Link></li>
+                      <li><Link to="../Component/Contact">Contact</Link> </li>
                     </ul>
                   </nav>
                   <Routes>
-                    <Route path="../Component/AboutUs" element={<AboutUs />} />
+                    <Route path="../Component/AboutUs/AboutUs" element={<AboutUs />} />
                     <Route path="../Component/LivingRoom" element={<LivingRoom />} />
                     <Route path="../Component/Kitchen" element={<Kitchen />} />
                     <Route path="../Component/OutDoors" element={<OutDoors />} />
